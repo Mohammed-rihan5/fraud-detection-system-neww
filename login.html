@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veritas — Log In</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <div class="menu-wrapper">
+      <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰ Menu</button>
+      <div id="menuDropdown" class="menu-dropdown hidden">
+        <a href="index.html" class="menu-item">Home</a>
+        <a href="login.html" class="menu-item active">Log In</a>
+        <a href="#" id="logoutItem" class="menu-item hidden">Log Out</a>
+      </div>
+    </div>
+    <div class="brand">
+      <h1 class="brand-title">VERITAS</h1>
+      <p class="brand-tagline">— Truth in Every Story —</p>
+    </div>
+    <div></div>
+  </header>
+
+  <hr class="divider thick" />
+  <hr class="divider thin" />
+
+  <!-- Main -->
+  <main class="main-container">
+    <section class="login-card">
+      <div class="card-header">
+        <span class="section-label">Member Access</span>
+        <h2 class="card-title" id="formTitle">Log In to Your Account</h2>
+        <p class="card-subtitle" id="formSubtitle">
+          Welcome back. Please enter your credentials below.
+        </p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <button class="tab active" data-tab="signin">Log In</button>
+        <button class="tab" data-tab="signup">Create Account</button>
+      </div>
+
+      <!-- Sign In Form -->
+      <form id="signinForm" class="auth-form">
+        <div class="field">
+          <label for="signinEmail">Email Address</label>
+          <input type="email" id="signinEmail" placeholder="reader@veritas.com" required />
+        </div>
+
+        <div class="field">
+          <label for="signinPassword">Password</label>
+          <div class="password-wrap">
+            <input type="password" id="signinPassword" placeholder="Enter your password" required />
+            <button type="button" class="toggle-pw" data-target="signinPassword">Show</button>
+          </div>
+        </div>
+
+        <div class="row-between">
+          <label class="checkbox">
+            <input type="checkbox" id="rememberMe" />
+            <span>Remember me</span>
+          </label>
+          <a href="#" class="link-muted" id="forgotLink">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="submit-btn">Log In</button>
+
+        <p class="form-footer">
+          New to Veritas?
+          <a href="#" class="link-accent" data-switch="signup">Create an account</a>
+        </p>
+      </form>
+
+      <!-- Sign Up Form -->
+      <form id="signupForm" class="auth-form hidden">
+        <div class="field">
+          <label for="signupName">Full Name</label>
+          <input type="text" id="signupName" placeholder="Jane Doe" required />
+        </div>
+
+        <div class="field">
+          <label for="signupEmail">Email Address</label>
+          <input type="email" id="signupEmail" placeholder="reader@veritas.com" required />
+        </div>
+
+        <div class="field">
+          <label for="signupPassword">Password</label>
+          <div class="password-wrap">
+            <input type="password" id="signupPassword" placeholder="At least 8 characters" required minlength="8" />
+            <button type="button" class="toggle-pw" data-target="signupPassword">Show</button>
+          </div>
+          <div class="strength-bar"><div id="strengthFill" class="strength-fill"></div></div>
+          <span id="strengthLabel" class="strength-label">Password strength</span>
+        </div>
+
+        <div class="field">
+          <label for="signupConfirm">Confirm Password</label>
+          <input type="password" id="signupConfirm" placeholder="Re-enter password" required />
+        </div>
+
+        <label class="checkbox">
+          <input type="checkbox" id="agreeTerms" required />
+          <span>I agree to the <a href="#" class="link-accent">Terms</a> and <a href="#" class="link-accent">Privacy Policy</a>.</span>
+        </label>
+
+        <button type="submit" class="submit-btn">Create Account</button>
+
+        <p class="form-footer">
+          Already a member?
+          <a href="#" class="link-accent" data-switch="signin">Log in here</a>
+        </p>
+      </form>
+
+      <!-- Status Message -->
+      <div id="statusMessage" class="status-message hidden"></div>
+    </section>
+
+    <!-- Side Quote -->
+    <aside class="side-quote">
+      <span class="quote-mark">“</span>
+      <p class="quote-text">
+        In a world of noise, verified truth is the rarest signal.
+      </p>
+      <span class="quote-author">— The Veritas Editorial Board</span>
+    </aside>
+  </main>
+
+  <hr class="divider thin" />
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Veritas. All rights reserved.</p>
+    <p class="footer-tagline">Verified. Trusted. Independent.</p>
+  </footer>
+
+  <script src="login.js"></script>
+</body>
+</html>

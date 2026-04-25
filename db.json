@@ -1,0 +1,324 @@
+{
+  "users": {
+    "rihan@example.com": {
+      "username": "mohammed rihan",
+      "password": "Rihan"
+    }
+  },
+  "history": {
+    "rihan@example.com": [],
+    "mohammed rihan": [
+      {
+        "text": "The telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 14,
+        "verdict": "\ud83d\udeab Likely Fake / Unreliable",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters",
+          "Model confidence in credibility is very low"
+        ],
+        "timestamp": "2026-04-25T02:20:37.662994"
+      },
+      {
+        "text": "The telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 14,
+        "verdict": "\ud83d\udeab Likely Fake / Unreliable",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters",
+          "Model confidence in credibility is very low"
+        ],
+        "timestamp": "2026-04-25T02:18:23.781863"
+      },
+      {
+        "text": "The telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 14,
+        "verdict": "\ud83d\udeab Likely Fake / Unreliable",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters",
+          "Model confidence in credibility is very low"
+        ],
+        "timestamp": "2026-04-25T02:09:17.997132"
+      },
+      {
+        "text": "The telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 14,
+        "verdict": "\ud83d\udeab Likely Fake / Unreliable",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters",
+          "Model confidence in credibility is very low"
+        ],
+        "timestamp": "2026-04-25T02:07:54.372002"
+      },
+      {
+        "text": "The telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 14,
+        "verdict": "\ud83d\udeab Likely Fake / Unreliable",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters",
+          "Model confidence in credibility is very low"
+        ],
+        "timestamp": "2026-04-25T02:04:39.938691"
+      },
+      {
+        "text": "The telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "",
+        "credibility": 14,
+        "verdict": "\ud83d\udeab Likely Fake / Unreliable",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters",
+          "Model confidence in credibility is very low"
+        ],
+        "timestamp": "2026-04-25T02:03:38.974818"
+      },
+      {
+        "text": "The telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "",
+        "credibility": 14,
+        "verdict": "\ud83d\udeab Likely Fake / Unreliable",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters",
+          "Model confidence in credibility is very low"
+        ],
+        "timestamp": "2026-04-25T01:57:33.880410"
+      },
+      {
+        "text": "The telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "",
+        "credibility": 14,
+        "verdict": "\ud83d\udeab Likely Fake / Unreliable",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters",
+          "Model confidence in credibility is very low"
+        ],
+        "timestamp": "2026-04-25T01:56:19.579993"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago.",
+        "source": "",
+        "country": "",
+        "credibility": 64,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:51:36.271968"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured the deepest infrared image of the universe ever taken. The image shows galaxy cluster SMACS 0723.",
+        "source": "",
+        "country": "",
+        "credibility": 78,
+        "verdict": "\u2705 Likely Credible",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:44:47.011129"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago.",
+        "source": "",
+        "country": "",
+        "credibility": 64,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:39:38.486570"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago.",
+        "source": "",
+        "country": "",
+        "credibility": 64,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:34:37.710092"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago.",
+        "source": "",
+        "country": "",
+        "credibility": 64,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:34:30.973979"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago.",
+        "source": "",
+        "country": "",
+        "credibility": 64,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:30:43.281874"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago.",
+        "source": "",
+        "country": "India",
+        "credibility": 64,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:27:00.965548"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago. \nThe telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 81,
+        "verdict": "\u2705 Likely Credible",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:25:30.408921"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago.",
+        "source": "",
+        "country": "India",
+        "credibility": 64,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:25:23.192244"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago. \nThe telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 81,
+        "verdict": "\u2705 Likely Credible",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:25:08.085511"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago. \nThe telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 81,
+        "verdict": "\u2705 Likely Credible",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:22:59.063136"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago. \nThe telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 81,
+        "verdict": "\u2705 Likely Credible",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:22:53.742356"
+      },
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago. \nThe telescope, launched in December 2021, is designed to observe \nthe most distant objects in the universe and help scientists \nunderstand the origins of galaxies, stars, and planetary systems.",
+        "source": "",
+        "country": "India",
+        "credibility": 81,
+        "verdict": "\u2705 Likely Credible",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:22:47.091093"
+      }
+    ],
+    "testuser": [
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured \nthe deepest infrared image of the universe ever taken. The image shows \ngalaxy cluster SMACS 0723 as it appeared 4.6 billion years ago.",
+        "source": "",
+        "country": "",
+        "credibility": 64,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:43:30.748368"
+      }
+    ],
+    "test": [
+      {
+        "text": "NASA has confirmed that the James Webb Space Telescope has captured the deepest infrared image of the universe ever taken.",
+        "source": "",
+        "country": "",
+        "credibility": 60,
+        "verdict": "\u26a0\ufe0f Potentially Misleading",
+        "bias_label": "Center / Unknown",
+        "bias_score": 50,
+        "flags": [
+          "Excessive use of capital letters"
+        ],
+        "timestamp": "2026-04-25T01:45:24.396590"
+      }
+    ]
+  }
+}

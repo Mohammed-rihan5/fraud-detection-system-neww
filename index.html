@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veritas — Truth in News, Verified by AI</title>
+  <meta name="description" content="Veritas verifies news articles for political bias and credibility using AI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="menu-wrap" id="menuWrap">
+        <button type="button" class="menu-btn" id="menuBtn" aria-haspopup="true" aria-expanded="false">
+          <span class="menu-icon">☰</span> <span>Menu</span>
+        </button>
+        <ul class="menu-dropdown hidden" id="menuDropdown" role="menu">
+          <li role="menuitem" data-action="home">🏠 Home</li>
+          <li role="menuitem" id="menuReports">📰 Reports</li>
+        </ul>
+      </div>
+    </div>
+    <div class="topbar-center">
+      <h1 class="brand">VERITAS</h1>
+      <p class="tagline">Truth in News · Verified by AI</p>
+    </div>
+    <div class="topbar-right">
+      <div class="auth-actions" id="authLoggedOut">
+        <button type="button" class="btn-mini btn-mini-ghost" id="loginBtn">Log in</button>
+        <button type="button" class="btn-mini btn-mini-solid" id="signupBtn">Sign up</button>
+      </div>
+      <div class="auth-actions hidden" id="authLoggedIn">
+        <span class="user-chip" id="userChip">👤</span>
+        <button type="button" class="btn-mini btn-mini-ghost" id="logoutBtn">Log out</button>
+      </div>
+    </div>
+  </header>
+
+  <hr class="rule rule-double" />
+
+  <main class="container">
+    <section class="card">
+      <h2 class="card-title">Submit an Article for Verification</h2>
+      <p class="card-sub">Paste the news text, add a source link, and select the country of origin.</p>
+
+      <label class="field-label" for="newsText">News Article</label>
+      <div class="textarea-wrap">
+        <textarea id="newsText" rows="8" placeholder="Paste the full article text here..."></textarea>
+        <div class="textarea-toolbar">
+          <button type="button" class="icon-btn" id="addMediaBtn">
+            <span class="plus">+</span> <span>Add photo / video</span>
+          </button>
+          <input id="fileInput" type="file" accept="image/*,video/*" multiple hidden />
+          <span class="char-count" id="charCount">0 characters</span>
+        </div>
+        <div class="media-preview" id="mediaPreview"></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="field">
+          <label class="field-label" for="sourceLink">Source Link</label>
+          <input id="sourceLink" type="url" placeholder="https://example.com/article" />
+        </div>
+        <div class="field">
+          <label class="field-label" for="country">Country of Origin</label>
+          <select id="country">
+            <option>India</option>
+            <option>China</option>
+            <option>Japan</option>
+            <option>Germany</option>
+            <option>USA</option>
+            <option>UK</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button type="button" class="btn btn-primary" id="verifyBtn">Verify Article</button>
+        <button type="button" class="btn btn-ghost" id="clearBtn">Clear</button>
+      </div>
+    </section>
+
+    <section class="card hidden" id="resultCard">
+      <h2 class="card-title">Verification Report</h2>
+      <div class="verdict" id="verdict">
+        <span class="verdict-dot"></span>
+        <span class="verdict-text" id="verdictText"></span>
+      </div>
+      <div class="report-block">
+        <div class="report-head">
+          <h3>Political Bias</h3>
+          <span class="report-value" id="biasLabel"></span>
+        </div>
+        <div class="bias-track">
+          <div class="bias-marker" id="biasMarker" style="left:50%"></div>
+        </div>
+        <div class="bias-legend"><span>Left</span><span>Center</span><span>Right</span></div>
+      </div>
+      <div class="report-block">
+        <div class="report-head">
+          <h3>Credibility Score</h3>
+          <span class="report-value" id="credValue"></span>
+        </div>
+        <div class="cred-track">
+          <div class="cred-fill" id="credFill"></div>
+        </div>
+      </div>
+      <div class="report-block">
+        <h3>Red Flags Detected</h3>
+        <ul class="flags" id="flagsList"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Veritas · Independent Verification</p>
+  </footer>
+
+  <!-- Auth Modal -->
+  <div class="modal-backdrop hidden" id="authModal">
+    <div class="modal" id="authModalInner">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <h2 class="card-title" id="authTitle">Log In</h2>
+      <p class="card-sub" id="authSub">Welcome back to Veritas.</p>
+      <form id="authForm" class="auth-form">
+        <div class="field signup-only hidden" id="nameField">
+          <label class="field-label" for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Jane Doe" />
+        </div>
+        <div class="field">
+          <label class="field-label" for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com" />
+        </div>
+        <div class="field">
+          <label class="field-label" for="password">Password</label>
+          <input id="password" name="password" type="password" required placeholder="••••••••" />
+        </div>
+        <div class="actions">
+          <button type="submit" class="btn btn-primary" id="authSubmit">Log In</button>
+          <button type="button" class="btn btn-ghost" id="authToggle">Need an account?</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.container {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.reports-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.report-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.report-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.verdict {
+  font-weight: bold;
+}
+
+.verdict.REAL { color: green; }
+.verdict.FAKE { color: red; }
+.verdict.UNCERTAIN { color: orange; }
+
+.score {
+  font-weight: bold;
+}
+
+.text-preview {
+  margin: 10px 0;
+  color: #444;
+}
+
+.flags {
+  margin-top: 10px;
+}
+
+.flag {
+  background: #ffe5e5;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-right: 5px;
+  font-size: 12px;
+}
