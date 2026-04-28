@@ -211,3 +211,22 @@ document.getElementById("clearBtn")?.addEventListener("click", () => {
 
 // ---------------- YEAR ----------------
 document.getElementById("year").textContent = new Date().getFullYear();
+
+function analyze() {
+  const text = document.getElementById("newsText").value;
+
+  if (text.length < 30) {
+    alert("Enter valid article");
+    return;
+  }
+
+  const fakeData = {
+    verdict: "⚠️ Potentially Misleading",
+    credibility: Math.floor(Math.random() * 50) + 40,
+    bias_label: "Center",
+    bias_score: 50,
+    flags: ["Clickbait detected", "No verified source"]
+  };
+
+  displayResult(fakeData);
+}
