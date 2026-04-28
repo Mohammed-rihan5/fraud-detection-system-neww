@@ -56,3 +56,18 @@ async function loadReports() {
 }
 
 loadReports();
+
+const data = [
+  {
+    verdict: "REAL",
+    credibility: 82,
+    text: "Government announces new AI policy for education sector...",
+    flags: []
+  },
+  {
+    verdict: "FAKE",
+    credibility: 28,
+    text: "Aliens spotted in Delhi metro shocking video goes viral...",
+    flags: ["Sensational", "No source"]
+  }
+];
